@@ -1,0 +1,63 @@
+
+1. Zero-shot prompting:
+   This is like asking the chef to prepare a dish without giving them any examples.
+
+   - Example: "Create a vegan pasta dish."
+   - No additional context or examples are provided.
+   - The chef (AI) has to rely entirely on its general knowledge.
+
+   When to use:
+   - When you want to test the AI's baseline capabilities
+   - For simple, straightforward tasks
+   - When you don't have specific examples to provide
+
+2. One-shot prompting:
+   This is like giving the chef one example before asking them to create a similar dish.
+
+   - Example: 
+     "Here's an example of a vegan pasta dish: Spaghetti with tomato sauce and roasted vegetables.
+     Now, create a different vegan pasta dish."
+   - One example is provided before the main task.
+   - The chef can use this as a reference for style and structure.
+
+   When to use:
+   - When you want to give the AI a general idea of what you're looking for
+   - To provide context without overwhelming the model
+   - For tasks where a single example can effectively demonstrate the desired output
+
+3. Few-shot prompting:
+   This is like showing the chef a few different examples before asking them to create a new dish in the same style.
+
+   - Example:
+     "Here are some vegan pasta dishes:
+     1. Penne with cashew cream sauce and spinach
+     2. Fettuccine with mushroom ragu
+     3. Orecchiette with broccoli and garlic
+     Now, create a new vegan pasta dish in a similar style."
+   - Multiple examples are provided before the main task.
+   - The chef can identify patterns and styles across examples.
+
+   When to use:
+   - For more complex tasks where multiple examples help clarify the expectation
+   - When you want the AI to grasp nuances or variations within a task
+   - To improve consistency and quality of output, especially for specialized tasks
+
+Key differences:
+
+1. Amount of context:
+   - Zero-shot: No examples
+   - One-shot: One example
+   - Few-shot: Multiple examples
+
+2. Performance:
+   - Generally, few-shot > one-shot > zero-shot in terms of task performance
+   - But this can vary depending on the task and the model's capabilities
+
+3. Flexibility:
+   - Zero-shot is most flexible but least guided
+   - Few-shot provides the most guidance but might constrain creativity
+
+4. Use of model's knowledge:
+   - Zero-shot relies heavily on the model's pre-existing knowledge
+   - One-shot and few-shot leverage both the model's knowledge and the provided examples
+
