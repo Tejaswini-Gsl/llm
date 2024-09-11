@@ -1,4 +1,3 @@
-```
 # Technical Overview: Ollama, Language Models, and LangChain
 
 ## Ollama
@@ -61,4 +60,3 @@ LangChain is a framework for developing applications powered by language models.
    - For multi-turn interactions, this context is used in subsequent prompt generation.
 
 This integrated system allows for the development of sophisticated AI applications that leverage the power of LLMs while maintaining control over data and computation resources.
-```
